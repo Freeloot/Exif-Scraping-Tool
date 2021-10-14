@@ -6,19 +6,23 @@ import sys
 f = open("metadata.txt", 'a')
 f.write(f"\n")
 
-imageDir = sys.argv[1]
-print('\n')
-image = Image.open(imageDir)
+try:
 
-exifdata = image.getexif()
+    imageDir = sys.argv[1]
+    print('\n')
+    image = Image.open(imageDir)
 
-for tagid in exifdata:
+    exifdata = image.getexif()
+
+    for tagid in exifdata:
+          
+        tagname = TAGS.get(tagid, tagid)
       
-    tagname = TAGS.get(tagid, tagid)
-  
-    value = exifdata.get(tagid)
-    print(f"{tagname:25} : {value}")
+        value = exifdata.get(tagid)
+        print(f"{tagname:25} : {value}")
 
-    f = open("metadata.txt", "a")
-    f.write(f"{tagname:25}: {value}\n")
-    f.close()
+        f = open("metadata.txt", "a")
+        f.write(f"{tagname:25}: {value}\n")
+        f.close()
+except Exception as error:
+    print(f"\n An Error Occurred! ({error}) \n \n USAGE: \n \n python est.py image.jpg \n python est.py imagesFolder/image.jpg \n")

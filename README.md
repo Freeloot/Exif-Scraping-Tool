@@ -1,4 +1,4 @@
-# Exif-Scraping-Tool
+## Exif-Scraping-Tool
 EST is a tool that allows you to retrieve and store exif data from an image.
 
 Please do not do anything malicious with other peoples metadata

@@ -5,6 +5,8 @@ Please do not do anything malicious with other peoples metadata
 
 **USAGE**
 
+```git clone https://github.com/Freeloot/Exif-Scraping-Tool/```
+
 _Windows_
 - python est.py image.jpg
 - python est.py imagesFolder/image.jpg

@@ -5,12 +5,12 @@ Please do not do anything malicious with other peoples metadata
 
 **USAGE**
 
-```git clone https://github.com/Freeloot/Exif-Scraping-Tool/```
+clone the repository using ```git clone https://github.com/Freeloot/Exif-Scraping-Tool/```
 
-_Windows_
-- python est.py image.jpg
-- python est.py imagesFolder/image.jpg
+### Windows
+scrape a file within the current directory ```python est.py image.jpg```
+scrape a file within a seperate folder ```python est.py imagesFolder/image.jpg```
 
-_Linux_
-- python3 est.py image.jpg
-- python3 est.py imagesFolder/image.jpg
+### Linux
+scrape a file within the current directory ```python3 est.py image.jpg```
+scrape a file within a seperate folder ```python3 est.py imagesFolder/image.jpg```

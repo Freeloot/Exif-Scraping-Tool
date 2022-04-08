@@ -10,7 +10,7 @@ EST is a tool that allows you to retrieve and store exif data from an image.
 3. Locate and run the /src/est.py using the following syntax
 
 ### Windows
-Scrape a file within the current directory `python est.py image.jpg`
+Scrape a file within the current directory > python est.py image.jpg
 
 Scrape a file within a seperate folder `python est.py imagesFolder/image.jpg`
 <br>

@@ -15,12 +15,12 @@ $ cd Exif-Scraping-Tool-main/
 
 2. Install (windows).
 
-```
-$ cd /setup/
-$ install.bat
-$ cd ..
-$ cd src
-```
+  ```
+  $ cd /setup/
+  $ install.bat
+  $ cd ..
+  $ cd src
+  ```
 
 2. Install (Linux).
 

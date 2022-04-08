@@ -1,4 +1,4 @@
-https://www.youtube.com/watch?v=_crYfS5v4ag   ![Youtube logo](https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white)
+[<img alt="Youtube example" src="https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white" />](https://www.youtube.com/watch?v=_crYfS5v4ag)
 
 # Exif-Scraping-Tool
 EST is a CLI based script that allows you to retrieve and store exif data from an image.

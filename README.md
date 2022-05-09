@@ -10,7 +10,7 @@ EST is a CLI based script that allows you to retrieve and store exif data of an 
 1. Clone the repository. 
 ```
 $ git clone https://github.com/Freeloot/Exif-Scraping-Tool
-$ cd Exif-Scraping-Tool-main/
+$ cd Exif-Scraping-Tool/
 ```
 
 2. Install (windows).
